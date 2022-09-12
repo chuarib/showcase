@@ -31,7 +31,9 @@ const App = () => {
         mockupImg={assets.mockup}
         banner="banner02"
       />
-      <Download />
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/chuarib/react-native-app">
+        <Download />
+      </a>
 
       <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
         <p className={`${styles.pText} ${styles.whiteText}`}>Made by {" "}
